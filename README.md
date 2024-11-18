@@ -1,4 +1,13 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Who is ronz?
+
+Ronz is a platform where users can directly communicate with brands to share their suggestions and requests. Its purpose is to help brands understand the real needs of their communities and incorporate user feedback into their growth processes.
+
+- Users contribute to the evolution of brands through their suggestions and requests, while also exchanging ideas with others.
+- Brands can evaluate real user feedback to improve their services or products.
+
+## Overview
+- `components` - Contains reusable React components.
+
 
 ## Getting Started
 
