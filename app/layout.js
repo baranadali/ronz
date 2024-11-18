@@ -6,15 +6,15 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   metadataBase: new URL("https://ronz.app"),
   title: {
-		default: "ronz - Fueling brand evolution.",
-		template: "%s | ronz",
+    default: "ronz - Fueling brand evolution.",
+    template: "%s | ronz",
 	},
   description: "Fueling brand evolution.",
   icons: [
     {
-        rel: "icon",
-        type: "image/png",
-        url: "/favicon.png",
+      rel: "icon",
+      type: "image/png",
+      url: "/favicon.png",
     },
 ],
 };
