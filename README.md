@@ -7,6 +7,7 @@ Ronz is a platform where users can directly communicate with brands to share the
 
 ## Overview
 - `components` - Contains reusable React components.
+- `images` - Images used within the project.
 
 
 ## Getting Started
