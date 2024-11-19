@@ -78,12 +78,12 @@ export default function Header() {
 
     return (
         <div className="w-[86%] mx-auto py-4 flex items-center justify-between">
-            <div className="w-1/3 flex items-center gap-4">
+            <div className="w-[40%] flex items-center gap-4">
                 <Logo />
                 <label className="w-full relative">
                     <input
                         placeholder="Search for brands, product or more"
-                        className="pl-9 w-full bg-black text-xs py-2 rounded-lg px-3 placeholder-zinc-600 text-zinc-300 outline-none border border-[#0a0a0a9a] focus:border-zinc-900/50"
+                        className="pl-9 w-full text-xs py-2 rounded-lg px-3 placeholder-zinc-600 text-zinc-300 outline-none border border-zinc-950 bg-[#0d0d0d] focus:border-zinc-900/50"
                         value={searchTerm}
                         onChange={handleSearch}
                     />
@@ -91,9 +91,9 @@ export default function Header() {
                         <IoSearchOutline className="text-zinc-500" />
                     </span>
                     {filteredResults.length > 0 ? (
-                    <div ref={resultsRef} className="absolute top-10 max-h-[24vh] z-10 bg-black border overflow-y-scroll border-[#0a0a0a9a] rounded-lg mt-1 w-full">
+                    <div ref={resultsRef} className="absolute top-10 max-h-[24vh] z-10 bg-[#0d0d0d] border overflow-y-scroll border-zinc-950 rounded-lg mt-1 w-full">
                         {filteredResults.map((result, index) => (
-                            <div key={index} className="flex gap-3 p-3 border-b border-[#0a0a0a39] hover:bg-[#0a0a0a27] cursor-pointer">
+                            <div key={index} className="flex gap-3 p-3 border-b border-[#0a0a0a39] transition-all delay-200 duration-200 hover:bg-[#101010] cursor-pointer">
                                 <div className="size-7 rounded-full overflow-auto flex items-center justify-center">
                                     <img className="w-[80%] h-auto" src={result.image}/>
                                 </div>
