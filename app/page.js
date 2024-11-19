@@ -1,7 +1,12 @@
+import Header from "@/components/ui/header/header";
+
 export default function Home() {
   return (
-    <div>
-      <p className="text-zinc-50 font-light text-sm p-3 underline">selam dünya, burası ronz-app.</p>
+    <div className="">
+      <Header/>
+      <div className="w-2/5 mx-auto">
+        <p className="text-zinc-500 font-light text-sm underline mt-10 hidden">selam dünya, burası ronz-app.</p>
+      </div>
     </div>
   );
 }
